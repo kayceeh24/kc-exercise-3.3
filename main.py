@@ -14,11 +14,11 @@ def is_leap_year (yr):
 # Function for determining how many days in a month
 def days_in_month (year, month):
     if month == 1 or month == 3 or month == 5 or  month == 7 or month == 8 or  month == 9 or month == 10:
-        return("31")
+        return (31)
     elif month == 4 or month == 6 or month == 9 or month == 11:
-        return("30")
+        return (30)
     if is_leap_year(year) == "True" and month == 2 :
-        return("29")
+        return (29)
     elif is_leap_year(year) == "False" and month == 2 :
-        return("28")
+        return (28)
     
